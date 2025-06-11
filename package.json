@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "esbuild assets/css/main.scss --bundle --outfile=assets/css/bundle.css --loader:.scss=text",
-    "build:js": "esbuild assets/js/main.js --bundle --outfile=assets/js/bundle.js",
-    "build": "npm run build:css && npm run build:js"
+    "build:css": "sass _assets/main.scss assets/css/bundle.css",
+  "build:js": "esbuild assets/js/main.js --bundle --outfile=assets/js/bundle.js",
+  "build": "npm run build:css && npm run build:js"
   },
   "keywords": [],
   "author": "",
