@@ -4,10 +4,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i ./_assets/input.css -o ./assets/main.css"
+    "build:css": "esbuild assets/css/main.scss --bundle --outfile=assets/css/bundle.css --loader:.scss=text",
+    "build:js": "esbuild assets/js/main.js --bundle --outfile=assets/js/bundle.js",
+    "build": "npm run build:css && npm run build:js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.6",
+    "vercel": "^42.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.5"
+  }
 }
