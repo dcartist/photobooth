@@ -1,3 +1,18 @@
 // Import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
-//  @import "bootstrap/scss/bootstrap";
+//  @import "bootstrap/scss/bootstrap";// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Enable Bootstrap dark theme
+body {
+  background-color: #212529; // Bootstrap dark background
+  color: #f8f9fa;           // Bootstrap light text
+}
+
+// Optional: Use Bootstrap's dark utility classes for navbar
+.navbar {
+  background-color: #212529 !important;
+  .navbar-brand, .nav-link {
+    color: #f8f9fa !important;
+  }
+}
