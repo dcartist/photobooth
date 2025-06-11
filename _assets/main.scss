@@ -1,7 +1,7 @@
 // Import Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap";
+@use "../node_modules/bootstrap/scss/bootstrap";
 //  @import "bootstrap/scss/bootstrap";// Import Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap";
+// @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Enable Bootstrap dark theme
 body {
@@ -15,4 +15,9 @@ body {
   .navbar-brand, .nav-link {
     color: #f8f9fa !important;
   }
+}
+
+.mainBackground {
+  background: url(../../images/main_background.jpg) no-repeat center center;
+  background-size: cover;
 }
