@@ -11867,8 +11867,9 @@ body {
 }
 
 .mainBackground {
-  background: url(../../images/main_background.jpg) no-repeat center center fixed;
+  background: url(../../images/main_background.jpg) no-repeat center center;
   background-size: cover;
+  min-height: 95vh;
 }
 
 /*# sourceMappingURL=bundle.css.map */
