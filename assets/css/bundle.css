@@ -1,0 +1,4 @@
+(() => {
+  // assets/css/main.scss
+  var main_default = '// Import Bootstrap\n@import "../node_modules/bootstrap/scss/bootstrap";';
+})();
