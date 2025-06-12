@@ -15,6 +15,15 @@
     </main>
 
      <script src="{{ '/assets/js/bundle.js' | relative_url }}"></script>
+     <script src="{{ '/assets/js/aos.js' | relative_url }}"></script>
+      <script>
+          AOS.init({
+              duration: 1200,
+              once: true,
+          });
+      </script>
+     <!-- <script type="module" src="{{ '/assets/js/main.js' | relative_url }}"></script> -->
+
     
 </body>
 </html>
