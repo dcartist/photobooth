@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "sass _assets/main.scss assets/css/bundle.css",
   "build:js": "esbuild assets/js/main.js --bundle --outfile=assets/js/bundle.js",
-  "build": "npm run build:css && npm run build:js && bundle exec jekyll build --config _config.yml"
+  "build": "npm run build:css && npm run build:js && bundle exec jekyll build --config _config.yml",
+   "watch": "esbuild assets/js/main.js --bundle --outfile=assets/js/bundle.js --watch"
   },
   "keywords": [],
   "author": "",

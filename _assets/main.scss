@@ -1,7 +1,7 @@
 // Import Bootstrap
 @use "../node_modules/bootstrap/scss/bootstrap";
-//  @import "bootstrap/scss/bootstrap";// Import Bootstrap
-// @import "../node_modules/bootstrap/scss/bootstrap";
+// @import "bootstrap/scss/bootstrap";// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 // Enable Bootstrap dark theme
 body {
@@ -21,4 +21,13 @@ body {
   background: url(../../images/main_background.jpg) no-repeat center center;
   background-size: cover;
   min-height: 95vh;
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-size {
+  width: auto;
+  height: 100px;
 }

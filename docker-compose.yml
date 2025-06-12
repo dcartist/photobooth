@@ -9,4 +9,6 @@ services:
       - .:/usr/src/app
     # command: bundle exec jekyll serve --host 0.0.0.0 --port 4000
     # command: /bin/sh -c "npm run build && bundle exec jekyll serve --host 0.0.0.0 --port 4000"
-    command: /bin/sh -c "bundle install && npm run build && bundle exec jekyll serve --host 0.0.0.0 --port 4000"
+    command: /bin/sh -c "npm run watch && bundle exec jekyll serve --host 0.0.0.0 --port 4000"
+    # command: /bin/sh -c "bundle install && npm run build && bundle exec jekyll serve --host 0.0.0.0 --port 4000"
+    
