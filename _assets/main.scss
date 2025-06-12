@@ -3,11 +3,20 @@
 // @import "bootstrap/scss/bootstrap";// Import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "./aos.css";
+@import "./responsive.css";
 
 // Enable Bootstrap dark theme
 body {
   background-color: #212529; // Bootstrap dark background
   color: #f8f9fa;           // Bootstrap light text
+}
+
+
+h3.package-text{
+  // font-size: 1.4rem;
+  font-weight: 500;
+  color: #f8f9fa; // Light text color for better contrast on dark background
+
 }
 
 // Optional: Use Bootstrap's dark utility classes for navbar
