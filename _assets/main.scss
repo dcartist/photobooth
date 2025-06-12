@@ -4,6 +4,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "./aos.css";
 @import "./responsive.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+// @import "../node_modules/bootstrap-icons/font/bootstrap-icons";
+// @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+// @use "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
 // Enable Bootstrap dark theme
 body {
@@ -40,4 +44,14 @@ h3.package-text{
 .logo-size {
   width: auto;
   height: 100px;
+}
+
+.package-icon{
+  font-size: 55px;
+  width: 100%;
+}
+
+.package-list li{
+  list-style: none;
+  margin-bottom: 20px;
 }

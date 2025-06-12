@@ -17,6 +17,7 @@
     "@popperjs/core": "^2.11.8",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.13.1",
     "vercel": "^42.3.0"
   },
   "devDependencies": {
