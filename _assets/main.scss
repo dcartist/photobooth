@@ -111,12 +111,11 @@ h3.package-text{
   color: #212529 !important; // Ensure text is dark for readability
 }
 
-.packagebackground 
-hr {
-  border: 1px solid #212529; // Default Bootstrap light divider
+.packagebackground hr  {
+  border: 1px solid #212529 !important; // Default Bootstrap light divider
   height: 2px;
   width: 75%;
-  background: #212529; // Light color for the divider
+  background: #212529 !important; // Light color for the divider
   margin: 20px 0; // Spacing around the divider
 }
 

@@ -10390,12 +10390,11 @@ h3.package-text, .package-text.h3 {
 .packagebackground .package-text {
   color: #212529 !important; }
 
-.packagebackground
-hr {
-  border: 1px solid #212529;
+.packagebackground hr {
+  border: 1px solid #212529 !important;
   height: 2px;
   width: 75%;
-  background: #212529;
+  background: #212529 !important;
   margin: 20px 0; }
 
 hr {
