@@ -10306,6 +10306,9 @@ textarea.form-control-lg {
 
   .d-print-none {
     display: none !important; } }
+body {
+  overflow-x: hidden; }
+
 h1, .h1 {
   font-family: 'Playfair Display', serif;
   font-size: 3rem;

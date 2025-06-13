@@ -10,7 +10,10 @@
 // @import "../node_modules/bootstrap-icons/font/bootstrap-icons";
 // @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 // @use "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
-
+body{
+  // overflow: hidden;
+  overflow-x: hidden;
+}
 h1 {
   font-family: 'Playfair Display', serif;
   // font-weight: 700;
