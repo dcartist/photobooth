@@ -23,7 +23,8 @@ body {
   background-color: #212529; // Bootstrap dark background
   color: #f8f9fa;           // Bootstrap light text
   font-family: 'Open Sans', sans-serif; // Use Open Sans for body text
-  line-height: 1.6; // Improved readability
+  line-height: 1.9; // Improved readability
+  // line-height: 1.6; // Improved readability
 }
 
 
@@ -98,5 +99,14 @@ h3.package-text{
   z-index: 2;
 }
 .yellowbkground {
-  background-color: #fed944 !important;
+  background-color: #EDCB99 !important;
+  // background-color: #fed944 !important;
+}
+
+hr {
+  border: 1px solid #dee2e6; // Default Bootstrap light divider
+  height: 2px;
+  width: 75%;
+  background: #f8f9fa; // Light color for the divider
+  margin: 20px 0; // Spacing around the divider
 }
