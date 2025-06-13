@@ -10383,6 +10383,21 @@ h3.package-text, .package-text.h3 {
 .yellowbkground {
   background-color: #EDCB99 !important; }
 
+.packagebackground {
+  background-color: #BCBBB3 !important;
+  color: #212529 !important; }
+
+.packagebackground .package-text {
+  color: #212529 !important; }
+
+.packagebackground
+hr {
+  border: 1px solid #212529;
+  height: 2px;
+  width: 75%;
+  background: #212529;
+  margin: 20px 0; }
+
 hr {
   border: 1px solid #dee2e6;
   height: 2px;

@@ -103,6 +103,23 @@ h3.package-text{
   // background-color: #fed944 !important;
 }
 
+.packagebackground {
+  background-color: #BCBBB3 !important; // Light background for package section
+  color: #212529 !important; // Dark text for contrast
+}
+.packagebackground .package-text {
+  color: #212529 !important; // Ensure text is dark for readability
+}
+
+.packagebackground 
+hr {
+  border: 1px solid #212529; // Default Bootstrap light divider
+  height: 2px;
+  width: 75%;
+  background: #212529; // Light color for the divider
+  margin: 20px 0; // Spacing around the divider
+}
+
 hr {
   border: 1px solid #dee2e6; // Default Bootstrap light divider
   height: 2px;
