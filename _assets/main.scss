@@ -10,7 +10,10 @@
 // @import "../node_modules/bootstrap-icons/font/bootstrap-icons";
 // @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 // @use "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
-
+body{
+  // overflow: hidden;
+  overflow-x: hidden;
+}
 h1 {
   font-family: 'Playfair Display', serif;
   // font-weight: 700;
@@ -23,7 +26,8 @@ body {
   background-color: #212529; // Bootstrap dark background
   color: #f8f9fa;           // Bootstrap light text
   font-family: 'Open Sans', sans-serif; // Use Open Sans for body text
-  line-height: 1.6; // Improved readability
+  line-height: 1.9; // Improved readability
+  // line-height: 1.6; // Improved readability
 }
 
 
@@ -98,5 +102,30 @@ h3.package-text{
   z-index: 2;
 }
 .yellowbkground {
-  background-color: #fed944 !important;
+  background-color: #EDCB99 !important;
+  // background-color: #fed944 !important;
+}
+
+.packagebackground {
+  background-color: #BCBBB3 !important; // Light background for package section
+  color: #212529 !important; // Dark text for contrast
+}
+.packagebackground .package-text {
+  color: #212529 !important; // Ensure text is dark for readability
+}
+
+.packagebackground hr  {
+  border: 1px solid #212529 !important; // Default Bootstrap light divider
+  height: 2px;
+  width: 75%;
+  background: #212529 !important; // Light color for the divider
+  margin: 20px 0; // Spacing around the divider
+}
+
+hr {
+  border: 1px solid #dee2e6; // Default Bootstrap light divider
+  height: 2px;
+  width: 75%;
+  background: #f8f9fa; // Light color for the divider
+  margin: 20px 0; // Spacing around the divider
 }
